@@ -17,10 +17,31 @@
   акцент колір #2196F3 */
 }
 
+.selection-list .btn {
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+
+  /* Шрифт інший ?*/
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+}
+
 .examples-list .title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
 }
 
 .examples-list .category {
   color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.88;
 }

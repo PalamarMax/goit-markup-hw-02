@@ -1,0 +1,81 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+
+  --primry-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+
+  --accent-color: #2196f3;
+
+  /* основний колір тексту #757575
+  колір для заголовків #212121
+  колір тексту футер rgba(255, 255, 255, 0.6)
+  основний колір фону #FFFFFF
+  вторинний колір фону #F5F4FA
+  акцент колір #2196F3 */
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primry-bg-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Logo */
+
+.logo {
+  color: var(--accent-color);
+}
+
+.logo-header {
+  color: var(--title-text-color);
+}
+
+.logo-footer {
+  color: var(--primry-bg-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Contacts-nav */
+
+.contacts-nav .link {
+  color: var(--primary-text-color);
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* ---- FOOTER ---- */
+
+.page-footer {
+  background-color: var(--footer-bg-color);
+}
+
+.contact {
+  color: var(--primry-bg-color);
+}
+
+.contact .link {
+  color: var(--footer-text-color);
+}

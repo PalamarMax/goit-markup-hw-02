@@ -1,0 +1,56 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+
+  --primry-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+
+  --accent-color: #2196f3;
+
+  /* основний колір тексту #757575
+  колір для заголовків #212121
+  колір тексту футер rgba(255, 255, 255, 0.6)
+  основний колір фону #FFFFFF
+  вторинний колір фону #F5F4FA
+  акцент колір #2196F3 */
+}
+
+/* --- MAIN --- */
+
+/* Hero */
+
+.hero-title {
+  color: var(--primry-bg-color);
+  background-color: #2f303a;
+}
+
+.hero-button {
+  color: var(--primry-bg-color);
+  background-color: var(--accent-color);
+}
+
+/* Section */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Fuatures */
+
+.features-list .title {
+  color: var(--title-text-color);
+}
+
+/*  */
+
+/* Team */
+
+.team {
+  background-color: var(--secondary-bg-color);
+}
+
+.team-list .title {
+  color: var(--title-text-color);
+}
